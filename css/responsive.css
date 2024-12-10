@@ -19,6 +19,16 @@
     .social-networks button {
         flex-grow: 1;
     }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+        margin-inline: none;
+        float: left;
+        margin-right: 10px;
+    }
 }
 
 
