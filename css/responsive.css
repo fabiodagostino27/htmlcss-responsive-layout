@@ -17,8 +17,28 @@
     }
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        flex-basis: calc(100% / 3);
+    }
+}
+
 @media screen and (min-width : 992px) {
     .recipe-name {
         font-size: 2.5rem;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        flex-grow: 1;
     }
 }
