@@ -7,8 +7,18 @@
     main {
         padding: 40px;
     }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width : 992px) {
-    
+    .recipe-name {
+        font-size: 2.5rem;
+    }
 }
