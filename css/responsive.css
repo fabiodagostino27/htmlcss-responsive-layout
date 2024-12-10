@@ -59,4 +59,11 @@
     .social-networks .label {
         display: inline;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: initial;
+        align-items: center;
+    }
 }
